@@ -1,16 +1,16 @@
-import React from 'react'
+// import React from 'react'
 
-function FunctionClick() {
+// function FunctionClick() {
 
-    function clickHandler(){
-        console.log('Button clicked')
-    }
+//     function clickHandler(){
+//         console.log('Button clicked')
+//     }
 
-  return (
-    <div>
-      <button onClick = {clickHandler}>Click</button>
-    </div>
-  )
-}
+//   return (
+//     <div>
+//       <button onClick = {clickHandler}>Click</button>
+//     </div>
+//   )
+// }
 
-export default FunctionClick
+// export default FunctionClick

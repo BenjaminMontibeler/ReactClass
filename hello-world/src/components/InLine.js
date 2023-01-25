@@ -1,16 +1,16 @@
-import React from 'react'
+// import React from 'react'
 
-const heading = {
-    fontSize: '72px',
-    color: 'blue'
-}
+// const heading = {
+//     fontSize: '72px',
+//     color: 'blue'
+// }
 
-function InLine() {
-  return (
-    <div>
-      <h1 style = {heading}>Inline</h1>
-    </div>
-  )
-}
+// function InLine() {
+//   return (
+//     <div>
+//       <h1 style = {heading}>Inline</h1>
+//     </div>
+//   )
+// }
 
-export default InLine
+// export default InLine
