@@ -31,6 +31,8 @@ import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
+import User from './components/User';
+import Counter2 from './components/Counter2';
 // import PureComp from './components/PureComp';
 
 
@@ -39,9 +41,17 @@ class App extends Component{
     return(
       <div className="App">
 
-        <ClickCounterTwo />
+        
+
+        {/* <Counter2 render = {(count, incrementCount) => (<ClickCounterTwo count = {count} incrementCount = {incrementCount} />)} />
+
+        <Counter2 render = {(count, incrementCount) => (<HoverCounterTwo count = {count} incrementCount = {incrementCount} />)} /> */}
+
+        {/* <ClickCounterTwo />
 
         <HoverCounterTwo />
+
+        <User name = {(isLoggedIn) => isLoggedIn ? 'Vishwas' : 'Guest'} /> */}
 
         {/* <ClickCounter name='Vishwas'/> */}
 
